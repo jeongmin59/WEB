@@ -1,0 +1,23 @@
+.shape1 {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 400px;
+    height: 400px;
+  }
+
+.shape2 {
+    border-width: 2px;
+    border-color: red;
+    border-style: dashed;
+    width: 200px;
+    height: 200px;
+  }
+
+.shape3 {
+    border-width: 2px;
+    border-color: blue;
+    border-style: dotted;
+    width: 100px;
+    height: 100px;
+  }

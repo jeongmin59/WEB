@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>회원가입 양식 만들기</h1>
+        <div>
+            <label for="name">이름</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="id">아이디</label>
+            <input type="text" name="id" id="id">
+        </div>
+        <div>
+            <label for="pw">패스워드</label>
+            <input type="password" name="password" id="pw">
+        </div>
+        <div>
+            <input type="radio" name="gender" id="man">
+            <label for="man">남</label>
+            <input type="radio" name="gender" id="woman" checked>
+            <!--default로 여성 체크 되어 있음-->
+            <label for="woman">여</label>
+    
+        </div>
+        <div>
+            <label for="hobby">취미</label>
+            <select name="hobby" id="hobby">
+                <option value="coding">코딩하기</option>
+                <option value="running">러닝</option>
+            </select>
+        </div>
+        
+        <!--button을 쓸 수 있지만... submit을 쓰게 되면 새로고침됨-->
+        <!-- <input type="button" value="제출하기"> -->
+        <p><input type="submit" value="제출하기"></p>
+
+    </form>
+    <!--인라인 요소 vs 블록 요소(element)-->
+    <!--줄바꿈이 발생하지 않는다 vs 줄바꿈이 발생한다-->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Sfh4zHdoC30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+</body>
+</html>
