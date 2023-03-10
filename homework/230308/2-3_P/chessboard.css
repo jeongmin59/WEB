@@ -1,0 +1,16 @@
+.board {
+  border: 1px solid black;
+  width: 800px;
+  height: 800px;
+}
+
+.black {
+  width: 100px;
+  height: 100px;
+  color: black;
+}
+
+.white {
+  width: 100px;
+  height: 100px;
+}

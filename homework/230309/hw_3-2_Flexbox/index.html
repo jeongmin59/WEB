@@ -7,31 +7,32 @@
   <title>Document</title>
   <style>
     .outer-box {
-      width : 400px;
+      border: black 1px dotted ;
       height: 200px;
-      border: 2px solid black;
-      text-align: center;
-      color: red;
+      width: 600px;
+      flex-wrap: nowrap;
     }
-    
+
     .inner-box {
-      width : 200px;
-      height: 100px;
-			border: inherit;
-      text-align: left;
-      color: black;
-
+      display: flex;
+      justify-content: space-between;
+      border: red 1px solid;
+      height: 200px;
+      width: 300px;
     }
 
+    .box {
+      height: 100px;
+      width: 100px;
+      background-color: skyblue;
+    }
   </style>
 </head>
 <body>
   <div class="outer-box">
-    <div>
-      <span>첫 번째</span>
-    </div>
     <div class="inner-box">
-      <span>두 번째</span>
+      <div class="box">item1</div>
+      <div class="box">item2</div>
     </div>
   </div>
 </body>

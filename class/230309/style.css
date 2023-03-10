@@ -1,0 +1,41 @@
+.container {
+    border: 1px solid red;
+    display: flex;
+    width: 500px;
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.one {
+    /* flex-grow: 10; */
+    /* flex-basis: 100px; */
+    flex-shrink: 1;
+}
+.two {
+    /* flex-grow: 0.5; */
+    /* flex-basis: 50px; */
+    flex-shrink: 2;
+}
+.three {
+    /* flex-grow: 5; */
+    /* flex-basis: 200px; */
+    flex-shrink: 3;
+}
+
+    /* 부모 안에 */
+    /* align-items: center;
+    flex-direction: column; */
+
+    /* flex-flow: column-reverse wrap-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* wrap은 줄바꿈을 허용한다는 것... default는 nowrap */
+
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    
+    /* justify-content: center;
+        align-items: center;*/

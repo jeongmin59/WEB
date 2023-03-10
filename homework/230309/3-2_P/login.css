@@ -1,0 +1,59 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+.header {
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    height: 50px;
+}
+
+.line1 {
+    border-bottom: 2px solid lightgray;
+}
+
+.line2 {
+    border-bottom: 3px solid blue;
+}
+
+.board {
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    width: 400px;
+    height: 500px;
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.sign {
+    text-align: center;
+}
+
+.box_user {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    width: 200px;
+    height: 20px;
+}
+
+.box_pw {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    width: 200px;
+    height: 20px;
+}
+
+.check {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    width: 10px;
+    height: 10px;
+}
